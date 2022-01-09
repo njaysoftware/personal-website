@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using System.Diagnostics.CodeAnalysis;
 
 namespace blog.Models
 {
@@ -12,8 +11,7 @@ namespace blog.Models
         }
 
         
-        public DbSet<TodoItem> TodoItems { get; set; } = null!;
         public DbSet<Post> Posts {get; set;} = null!;
-        
+        public DbSet<Admin> Admins {get; set;} = null!;
     }
 }

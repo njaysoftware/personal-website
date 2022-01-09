@@ -26,12 +26,12 @@ function App() {
               <Route exact path='/'>
                 <div className="App-header">
                   <div className='img-wrapper'>
-                    <img src='npadgett.png' className="App-logo" alt="logo" />
+                    <img src='npadgett.jpeg' className="App-logo" alt="logo" />
                   </div>
                     <h1>Hi I'm Nathaniel</h1>
                   <p className='main-paragraph'>
                     I am a passionate software developer and tech enthusiast. 
-                    Most of my professional software development has been focused on building web applications using Python and Javascript but all technologies interests me. I love learning about new frameworks, languages, operating systems and just how things work weather that be a toaster oven or Linux CPU scheduling works. I hope to share with you some of what I learn on my <Link to='/blog'>blog</Link>. In my spare time you can find me exploring nature, perusing GitHub, tinkering with mechanical gadgets ⚙️, playing sports 🏈, and of course coding 👨‍💻!
+                    Most of my professional software development has been focused on building web applications using Python and Javascript but all technologies interests me. I love learning about new frameworks, languages, operating systems and just how things work whether that be a toaster oven or Linux CPU scheduling works. I hope to share with you some of what I learn on my <Link to='/blog'>blog</Link>. In my spare time you can find me exploring nature, perusing GitHub, tinkering with mechanical gadgets ⚙️, playing sports 🏈, and of course coding 👨‍💻!
                   </p>
                 </div>
               </Route>
@@ -66,7 +66,7 @@ function App() {
             </Switch>
           </div>
           <div className='footer'>
-            <p>Copyright &copy; 2021 Nathaniel Padgett. All Rights Reserved<br/><span>development by Iconstock from the Noun Project</span></p>
+            <p>Copyright &copy; {new Date().getFullYear()} Nathaniel Padgett. All Rights Reserved<br/><span>development by Iconstock from the Noun Project</span></p>
           </div>
         </Router>
     </div>

@@ -30,6 +30,7 @@
     color: white;
     background-color: #282c34;
     text-align: end;
+    font-size: .5rem;
 }
 
 .App-logo {
@@ -39,6 +40,7 @@
   height: 100%;
   border-radius: 50%;
   border: 2px solid #616364;
+  object-fit: cover;
 }
 
 .img-wrapper {
@@ -62,6 +64,11 @@ button {
     background-color: #616364;
 
 }
+a:link {
+    color: green;
+    background-color: transparent;
+    /* text-decoration: none; */
+  }
 .img-wrapper:hover {
     transform: scale(1.5);
 }
@@ -110,6 +117,9 @@ html {
 }
 
 a:visited {
+    color: black;
+}
+a:link {
     color: white;
 }
 
