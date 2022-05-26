@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 using blog.Models;
 using System.Text.Json;
 
@@ -23,6 +24,7 @@ namespace blog.Controllers
         }
 
         // GET: api/Admin
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Admin>>> GetAdmins()
         {
